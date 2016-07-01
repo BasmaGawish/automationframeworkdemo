@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutomationFrameworkDemo", "AutomationFrameworkDemo\AutomationFrameworkDemo.csproj", "{908F8C62-D2F7-4922-B1E1-1C2E81E8BFAA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutomationFrameworkDemo.Tests", "AutomationFrameworkDemo.Tests\AutomationFrameworkDemo.Tests.csproj", "{052BD4CC-CF5D-43D1-A3E0-10921DE40C7C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{908F8C62-D2F7-4922-B1E1-1C2E81E8BFAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{908F8C62-D2F7-4922-B1E1-1C2E81E8BFAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{908F8C62-D2F7-4922-B1E1-1C2E81E8BFAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{908F8C62-D2F7-4922-B1E1-1C2E81E8BFAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{052BD4CC-CF5D-43D1-A3E0-10921DE40C7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{052BD4CC-CF5D-43D1-A3E0-10921DE40C7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{052BD4CC-CF5D-43D1-A3E0-10921DE40C7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{052BD4CC-CF5D-43D1-A3E0-10921DE40C7C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
