@@ -7,26 +7,26 @@ namespace AutomationFrameworkDemo.Tests.Pages
     {
         public void OpenURL()
         {
-            Driver.driver.Navigate().GoToUrl(Driver.BaseAddress + "/Account/Login");
+            Driver.DriverInstance.Navigate().GoToUrl(Driver.BaseAddress + "/Account/Login");
         }
 
         public LoginPage EnterEmail(string email)
         {
-            var emailField = Driver.driver.FindElement(By.ClassName("ui-email"));
+            var emailField = Driver.DriverInstance.FindElement(By.ClassName("ui-email"));
             emailField.SendKeys(email);
             return this;
         }
 
         public LoginPage EnterPassword(string password)
         {
-            var passwordTextField = Driver.driver.FindElement(By.ClassName("ui-password"));
+            var passwordTextField = Driver.DriverInstance.FindElement(By.ClassName("ui-password"));
             passwordTextField.SendKeys(password);
             return this;
         }
 
         public HomePage ClickLogin()
         {
-            var loginButton = Driver.driver.FindElement(By.ClassName("ui-login-button"));
+            var loginButton = Driver.DriverInstance.FindElement(By.ClassName("ui-login-button"));
             loginButton.Click();
             return new HomePage();
         }

@@ -4,7 +4,7 @@ using NUnit.Framework;
 namespace AutomationFrameworkDemo.Tests.Tests
 {
     [TestFixture]
-    public class LoginPageTests
+    public class LoginPageTests : BaseTest
     {
         [Test]
         public void Login_WithValidUserNameAndPassword_ThenUserRedirectedToHomePage()
@@ -12,7 +12,6 @@ namespace AutomationFrameworkDemo.Tests.Tests
             LoginPage loginpage = new LoginPage();
             loginpage.OpenURL();
             var homePage = loginpage.Login("admin@notvaliddomain.com", "P@ssw0rd");
-           
             Assert.IsTrue(homePage.IsHere());
         }
     }

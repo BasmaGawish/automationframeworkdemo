@@ -4,7 +4,7 @@
     {
         public bool IsHere()
         {
-            return Driver.driver.Title == "Home Page - My ASP.NET Application";
+            return Driver.DriverInstance.Title == "Home Page - My ASP.NET Application";
         }
     }
 }
